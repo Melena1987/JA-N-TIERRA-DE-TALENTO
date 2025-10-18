@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const SocialIcon: React.FC<{ children: React.ReactNode; href: string }> = ({ children, href }) => (
   <a href={href} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">
@@ -12,18 +14,18 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
-            <a href="#home">
+            <a href="/#home">
               <img src="https://firebasestorage.googleapis.com/v0/b/galeriaoficialapp.firebasestorage.app/o/users%2FI5KZz4BuUEfxcoAvSCAWllkQtwt1%2Fphotos%2F1760773929932_ja_n_Tirra_de_talento_logo.png?alt=media&token=1ad550b3-5cd5-4f28-b6b5-a4b28fc6f829" alt="Jaén, Tierra de Talento Logo" className="h-48 mx-auto md:mx-0" />
             </a>
           </div>
           <div>
             <h4 className="font-semibold uppercase text-gray-200">Navegación</h4>
             <ul className="mt-4 space-y-2">
-              <li><a href="#home" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">Inicio</a></li>
-              <li><a href="#proyecto" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">El Proyecto</a></li>
-              <li><a href="#eventos" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">Eventos</a></li>
-              <li><a href="#colaboradores" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">Colaboradores</a></li>
-              <li><a href="#contacto" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">Contacto</a></li>
+              <li><a href="/#home" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">Inicio</a></li>
+              <li><a href="/#proyecto" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">El Proyecto</a></li>
+              <li><a href="/#eventos" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">Eventos</a></li>
+              <li><a href="/#colaboradores" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">Colaboradores</a></li>
+              <li><a href="/#contacto" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">Contacto</a></li>
             </ul>
           </div>
           <div>
@@ -41,7 +43,7 @@ const Footer: React.FC = () => {
         <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
           <p>© 2025 JAÉN, TIERRA DE TALENTO. Todos los derechos reservados.</p>
           <p className="mt-1">
-            <a href="#" className="hover:text-white">Aviso Legal</a> | <a href="#" className="hover:text-white">Política de Privacidad</a>
+            <Link to="/legal#aviso-legal" className="hover:text-white">Aviso Legal</Link> | <Link to="/legal#politica-privacidad" className="hover:text-white">Política de Privacidad</Link>
           </p>
         </div>
       </div>
