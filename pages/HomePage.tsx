@@ -102,7 +102,7 @@ const HomePage: React.FC = () => {
           <img 
             src="https://firebasestorage.googleapis.com/v0/b/galeriaoficialapp.firebasestorage.app/o/users%2FI5KZz4BuUEfxcoAvSCAWllkQtwt1%2Fphotos%2F1760773929932_ja_n_Tirra_de_talento_logo.png?alt=media&token=1ad550b3-5cd5-4f28-b6b5-a4b28fc6f829"
             alt="Jaén, Tierra de Talento Logo"
-            className="h-64 md:h-96 [filter:drop-shadow(0_0_10px_rgba(255,255,255,0.7))]"
+            className="h-80 md:h-[30rem] [filter:drop-shadow(0_0_10px_rgba(255,255,255,0.7))]"
           />
           <a 
             href="#proyecto"
