@@ -106,7 +106,7 @@ const HomePage: React.FC = () => {
           />
           <a 
             href="#proyecto"
-            className="mt-8 inline-block bg-[#D4AF37] text-white font-bold py-3 px-8 rounded-full uppercase tracking-wider hover:bg-opacity-90 transition duration-300"
+            className="mt-4 inline-block bg-[#D4AF37] text-white font-bold py-3 px-8 rounded-full uppercase tracking-wider hover:bg-opacity-90 transition duration-300"
           >
             Descubre el Proyecto
           </a>
