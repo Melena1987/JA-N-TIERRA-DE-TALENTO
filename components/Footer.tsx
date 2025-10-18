@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
             <a href="#home">
-              <img src="https://firebasestorage.googleapis.com/v0/b/galeriaoficialapp.firebasestorage.app/o/users%2FI5KZz4BuUEfxcoAvSCAWllkQtwt1%2Fphotos%2F1760773929932_ja_n_Tirra_de_talento_logo.png?alt=media&token=1ad550b3-5cd5-4f28-b6b5-a4b28fc6f829" alt="Jaén, Tierra de Talento Logo" className="h-20 mx-auto md:mx-0" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/galeriaoficialapp.firebasestorage.app/o/users%2FI5KZz4BuUEfxcoAvSCAWllkQtwt1%2Fphotos%2F1760773929932_ja_n_Tirra_de_talento_logo.png?alt=media&token=1ad550b3-5cd5-4f28-b6b5-a4b28fc6f829" alt="Jaén, Tierra de Talento Logo" className="h-48 mx-auto md:mx-0" />
             </a>
           </div>
           <div>

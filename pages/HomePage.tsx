@@ -162,7 +162,7 @@ const HomePage: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-12 mb-20">
             <div className="md:w-1/3">
               <img 
-                src="https://picsum.photos/seed/alfonso-sanchez/400/500" 
+                src="https://firebasestorage.googleapis.com/v0/b/galeriaoficialapp.firebasestorage.app/o/users%2FI5KZz4BuUEfxcoAvSCAWllkQtwt1%2Fphotos%2F1760775189990_Alfonso_S_nchez_THE_EMBASSY.jpg?alt=media&token=f7b09ca3-25b6-4b5b-ae4c-a7950b9aca18" 
                 alt="Alfonso Sánchez"
                 className="rounded-lg shadow-2xl w-full"
               />
