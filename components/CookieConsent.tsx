@@ -25,7 +25,7 @@ const CookieConsent: React.FC = () => {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
         <p className="text-sm mb-4 md:mb-0 md:mr-4">
           Utilizamos cookies para mejorar tu experiencia en nuestra web. Al continuar navegando, aceptas nuestro uso de cookies. Para más información, consulta nuestra{' '}
-          <Link to="/legal#politica-privacidad" className="underline hover:text-[#D4AF37] transition duration-300">
+          <Link to="/legal" className="underline hover:text-[#D4AF37] transition duration-300">
             Política de Privacidad
           </Link>.
         </p>

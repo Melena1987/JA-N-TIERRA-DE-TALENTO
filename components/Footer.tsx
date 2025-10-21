@@ -44,9 +44,9 @@ const Footer: React.FC = () => {
         <div className="mt-8 pt-6 border-t border-gray-700 text-center text-gray-400 text-sm">
           <p>&copy; {new Date().getFullYear()} Jaén, Tierra de Talento. Todos los derechos reservados.</p>
           <p className="mt-2">
-            <Link to="/legal#aviso-legal" className="hover:text-[#D4AF37] transition duration-300">Aviso Legal</Link>
+            <Link to="/legal" className="hover:text-[#D4AF37] transition duration-300">Aviso Legal</Link>
             <span className="mx-2">|</span>
-            <Link to="/legal#politica-privacidad" className="hover:text-[#D4AF37] transition duration-300">Política de Privacidad</Link>
+            <Link to="/legal" className="hover:text-[#D4AF37] transition duration-300">Política de Privacidad</Link>
           </p>
         </div>
       </div>
