@@ -26,6 +26,7 @@ const Footer: React.FC = () => {
               <li><a href="/#eventos" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">Eventos</a></li>
               <li><a href="/#colaboradores" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">Colaboradores</a></li>
               <li><a href="/#contacto" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">Contacto</a></li>
+              <li><a href="https://heyzine.com/flip-book/af5a3a7e12.html" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#D4AF37] transition duration-300">Dossier del Proyecto</a></li>
             </ul>
           </div>
           <div>
