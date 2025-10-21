@@ -15,7 +15,7 @@ const Header: React.FC = () => {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-6 py-2 flex justify-between items-center">
         <a href="/#home">
-          <img src="https://firebasestorage.googleapis.com/v0/b/galeriaoficialapp.firebasestorage.app/o/users%2FI5KZz4BuUEfxcoAvSCAWllkQtwt1%2Fphotos%2F1760774446775_Inspirando_el_futuro__celebrando_lo_nuestro__1_.png?alt=media&token=af64f4d8-ece6-4e49-a834-924e2ef90b63" alt="Jaén, Tierra de Talento Logo" className="h-16" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/galeriaoficialapp.firebasestorage.app/o/users%2FI5KZz4BuUEfxcoAvSCAWllkQtwt1%2Fphotos%2F1761021258073_Inspirando_el_futuro__celebrando_lo_nuestro.png?alt=media&token=b7a83ab1-7e5b-4739-892b-448ee4538834" alt="Jaén, Tierra de Talento Logo" className="h-16" />
         </a>
         <nav className="hidden md:flex space-x-8">
           {navLinks.map((link) => (

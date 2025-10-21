@@ -100,9 +100,9 @@ const HomePage: React.FC = () => {
         <div className="absolute inset-0 bg-white bg-opacity-60"></div>
         <div className="relative z-10 text-center p-4 flex flex-col items-center">
           <img 
-            src="https://firebasestorage.googleapis.com/v0/b/galeriaoficialapp.firebasestorage.app/o/users%2FI5KZz4BuUEfxcoAvSCAWllkQtwt1%2Fphotos%2F1760773929932_ja_n_Tirra_de_talento_logo.png?alt=media&token=1ad550b3-5cd5-4f28-b6b5-a4b28fc6f829"
+            src="https://firebasestorage.googleapis.com/v0/b/galeriaoficialapp.firebasestorage.app/o/users%2FI5KZz4BuUEfxcoAvSCAWllkQtwt1%2Fphotos%2F1761021258073_Inspirando_el_futuro__celebrando_lo_nuestro.png?alt=media&token=b7a83ab1-7e5b-4739-892b-448ee4538834"
             alt="Jaén, Tierra de Talento Logo"
-            className="h-80 md:h-[30rem] [filter:drop-shadow(0_0_10px_rgba(255,255,255,0.7))]"
+            className="w-full max-w-3xl px-4 [filter:drop-shadow(0_0_10px_rgba(0,0,0,0.3))]"
           />
           <a 
             href="#proyecto"
