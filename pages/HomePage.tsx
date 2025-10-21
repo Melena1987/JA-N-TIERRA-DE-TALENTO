@@ -81,11 +81,6 @@ const HomePage: React.FC = () => {
     },
   ];
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    alert('Gracias por tu mensaje. Nos pondremos en contacto contigo pronto.');
-  };
-
   return (
     <div className="bg-[#F9F9F9]">
       {/* Hero Section */}
@@ -245,65 +240,31 @@ const HomePage: React.FC = () => {
 
       {/* Contact Section */}
       <section id="contacto" className="py-20 bg-[#F9F9F9]">
-        <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16 items-start">
-            <div>
-              <h2 className="text-3xl font-bold text-[#556B2F] mb-2">Hablemos</h2>
-              <div className="w-16 h-1 bg-[#D4AF37] mb-6"></div>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Para consultas sobre asistencia de colegios, propuestas de patrocinio o entrevistas de prensa, puedes rellenar este formulario o escribirnos directamente.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#556B2F]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                  <a href="mailto:contacto@jaentalento.es" className="text-gray-700 hover:text-[#D4AF37]">contacto@jaentalento.es</a>
-                </div>
-              </div>
-              <div className="mt-8">
-                <h3 className="text-xl font-semibold text-[#556B2F] mb-4">Redes Sociales</h3>
-                <div className="flex justify-start mt-4 space-x-6">
-                  <SocialIcon href="#">
-                    <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd"></path></svg>
-                  </SocialIcon>
-                  <SocialIcon href="#">
-                    <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.345 2.525c.636-.247 1.363-.416 2.427-.465C9.793 2.013 10.147 2 12.315 2zM12 7a5 5 0 100 10 5 5 0 000-10zm0-2a7 7 0 110 14 7 7 0 010-14zm6.406-2.34a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z" clipRule="evenodd"></path></svg>
-                  </SocialIcon>
-                </div>
-              </div>
+        <div className="container mx-auto px-6 text-center">
+          <h2 className="text-3xl font-bold text-[#556B2F] mb-2">Hablemos</h2>
+          <div className="w-16 h-1 bg-[#D4AF37] mx-auto mb-6"></div>
+          <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto leading-relaxed">
+            Para consultas sobre asistencia de colegios, propuestas de patrocinio o entrevistas de prensa, no dudes en contactarnos a través de los siguientes medios.
+          </p>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-12 text-lg">
+            <div className="flex items-center space-x-3">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#556B2F]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+              <a href="mailto:contacto@jaentalento.es" className="text-gray-700 hover:text-[#D4AF37]">contacto@jaentalento.es</a>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nombre</label>
-                  <input type="text" id="name" required className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#D4AF37] focus:border-[#D4AF37]" />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
-                  <input type="email" id="email" required className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#D4AF37] focus:border-[#D4AF37]" />
-                </div>
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700">Teléfono <span className="text-xs text-gray-500">(Opcional)</span></label>
-                  <input type="tel" id="phone" className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#D4AF37] focus:border-[#D4AF37]" />
-                </div>
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700">Asunto</label>
-                  <select id="subject" required className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#D4AF37] focus:border-[#D4AF37]">
-                    <option>Centros Educativos</option>
-                    <option>Patrocinio</option>
-                    <option>Prensa</option>
-                    <option>Otro</option>
-                  </select>
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700">Mensaje</label>
-                  <textarea id="message" rows={5} required className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#D4AF37] focus:border-[#D4AF37]"></textarea>
-                </div>
-                <div>
-                  <button type="submit" className="w-full bg-[#D4AF37] text-white font-bold py-3 px-8 rounded-full uppercase tracking-wider hover:bg-opacity-90 transition duration-300">
-                    Enviar Mensaje
-                  </button>
-                </div>
-              </form>
+            <div className="flex items-center space-x-3">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#556B2F]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+              <a href="tel:+34618725333" className="text-gray-700 hover:text-[#D4AF37]">+34 618 72 53 33</a>
+            </div>
+          </div>
+          <div className="mt-12">
+            <h3 className="text-xl font-semibold text-[#556B2F] mb-4">Redes Sociales</h3>
+            <div className="flex justify-center mt-4 space-x-6">
+              <SocialIcon href="#">
+                <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd"></path></svg>
+              </SocialIcon>
+              <SocialIcon href="#">
+                <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fillRule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.345 2.525c.636-.247 1.363-.416 2.427-.465C9.793 2.013 10.147 2 12.315 2zM12 7a5 5 0 100 10 5 5 0 000-10zm0-2a7 7 0 110 14 7 7 0 010-14zm6.406-2.34a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z" clipRule="evenodd"></path></svg>
+              </SocialIcon>
             </div>
           </div>
         </div>
