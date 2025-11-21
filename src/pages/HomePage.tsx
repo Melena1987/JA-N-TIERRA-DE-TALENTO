@@ -9,7 +9,7 @@ import ContactSection from '../components/home/ContactSection';
 
 const HomePage: React.FC = () => {
   return (
-    <div className="bg-[#F9F9F9] pb-16 md:pb-0"> {/* Padding bottom for mobile nav */}
+    <div className="bg-[#F9F9F9] pb-24 md:pb-0"> {/* Padding bottom increased for mobile nav */}
       <HeroSection />
       <IntroSection />
       <ObjectivesSection />
