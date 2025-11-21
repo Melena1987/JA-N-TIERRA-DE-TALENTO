@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const navLinks = [
   { name: 'Inicio', path: '/#home' },
   { name: 'El Proyecto', path: '/#proyecto' },
-  { name: 'Eventos', path: '/#eventos' },
+  { name: 'Objetivos', path: '/#objetivos' },
   { name: 'Colaboradores', path: '/#colaboradores' },
   { name: 'Contacto', path: '/#contacto' },
 ];
